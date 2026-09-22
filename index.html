@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- ESTA LÍNEA HACE QUE SE VEA BIEN EN CELULAR -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReVita+ - Catálogo de Servicios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #e6f2f8, #f0f9fc);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+        .contenedor {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #006699;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: normal;
+            font-size: 18px;
+        }
+        .boton-pdf {
+            display: inline-block;
+            padding: 16px 35px;
+            background: linear-gradient(135deg, #006699, #0099cc);
+            color: white !important;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,102,153,0.3);
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+        .boton-pdf:hover {
+            transform: scale(1.03);
+        }
+        .nota {
+            margin-top: 25px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>ReVita+</h1>
+        <h2>Bienestar Integral</h2>
+        
+
+        <a href="catalogo_revita.pdf" target="_blank" class="boton-pdf">
+            📄 Ver Catálogo Completo
+        </a>
+        
+        <p class="nota">Al escanear el código QR se abrirá automáticamente<br>Se ve perfecto en celular y computadora ✅</p>
+    </div>
+</body>
+</html>
